@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/glogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/glogo"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.GarbageCollectionApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".mycomplaint"
+            android:exported="false" />
+        <activity
+            android:name=".ShowLocation"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".ShowUserComplaint"
+            android:exported="true"></activity>
+        <activity
+            android:name=".ShowUserStatus"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".Userlogin"
+            android:exported="false" />
+        <activity
+            android:name=".Userregister"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".Driverregister"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".Driverlogin"
+            android:exported="false" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Classification"
+            android:exported="true" />
+        <activity
+            android:name=".DriverDash"
+            android:exported="false" />
+        <activity
+            android:name=".UserDash"
+            android:exported="false" />
+        <activity
+            android:name=".Addtips"
+            android:exported="true" />
+        <activity
+            android:name=".AdminDash"
+            android:exported="true"></activity>
+        <activity
+            android:name=".Requestdetails"
+            android:exported="false" />
+        <activity
+            android:name=".ShowRequest"
+            android:exported="true"></activity>
+        <activity
+            android:name=".Usenotificaation"
+            android:exported="true" />
+        <activity
+            android:name=".Showdriverlocation"
+            android:exported="true" />
+        <activity
+            android:name=".sendlocation"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".location"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name=".ShowStatus"
+            android:exported="true" />
+        <activity
+            android:name=".AddStatus"
+            android:exported="false" />
+        <activity
+            android:name=".ShowFeedback"
+            android:exported="true" />
+        <activity
+            android:name=".ShowCompaint"
+            android:exported="true" />
+        <activity
+            android:name=".UploadFeedback"
+            android:exported="true" />
+        <activity
+            android:name=".UploadComplaint"
+            android:exported="true" />
+        <activity
+            android:name=".verify"
+            android:exported="false" />
+        <activity
+            android:name=".myHome"
+            android:exported="false" />
+        <activity
+            android:name=".phoneauth"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".driverdetails"
+            android:exported="false" />
+        <activity
+            android:name=".ShowDriver"
+            android:exported="true"></activity>
+        <activity
+            android:name=".Adddriver"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="true"></activity>
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

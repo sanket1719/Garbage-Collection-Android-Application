@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item
+        android:id="@+id/feedback"
+        android:icon="@drawable/baseline_circle_notifications_24"
+        android:title="Show User Request"/>
+    <item
+        android:id="@+id/showre"
+        android:icon="@drawable/baseline_location_on_24"
+        android:title="Share Location"/>
+    <item
+        android:id="@+id/sendrequest"
+        android:icon="@drawable/baseline_send_24"
+        android:title="Classification"/>
+
+    <item
+        android:id="@+id/showlocation"
+        android:icon="@drawable/baseline_lock_24"
+        android:title="Logout"/>
+
+</menu>
